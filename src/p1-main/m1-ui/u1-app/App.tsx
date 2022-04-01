@@ -17,10 +17,11 @@ function App() {
             <div>react homeworks:</div>
             <Header/>
             <Routes>
+                <Route path={'/'} element={<HW5/>}/>
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Error404/>}/>
                 <Route path={PATH.JUNIOR_PLUS} element={<Error404/>}/>
-                <Route path={'*'} element={<Error404/>}/>
+
             </Routes>
 
 
