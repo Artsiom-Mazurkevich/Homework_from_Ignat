@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/css/main.283d2595.css",
-    "main.js": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/js/main.727a1b95.js",
-    "index.html": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/index.html",
-    "main.283d2595.css.map": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/css/main.283d2595.css.map",
-    "main.727a1b95.js.map": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/js/main.727a1b95.js.map"
+    "main.css": "/Homework_from_Ignat/static/css/main.283d2595.css",
+    "main.js": "/Homework_from_Ignat/static/js/main.727a1b95.js",
+    "index.html": "/Homework_from_Ignat/index.html",
+    "main.283d2595.css.map": "/Homework_from_Ignat/static/css/main.283d2595.css.map",
+    "main.727a1b95.js.map": "/Homework_from_Ignat/static/js/main.727a1b95.js.map"
   },
   "entrypoints": [
     "static/css/main.283d2595.css",
