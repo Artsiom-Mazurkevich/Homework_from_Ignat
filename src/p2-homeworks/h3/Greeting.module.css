@@ -1,7 +1,19 @@
-.someClass {
-
+.inputClass {
+    color: black;
 }
 
 .error {
-    border: 1px solid red;
+    border-color: red;
+    -webkit-animation: blink1 3s linear infinite;
+    animation: blink1 2s linear infinite;
+}
+@-webkit-keyframes blink1 {
+    0% { color: rgb(255, 0, 0, 100); }
+    50% { color: rgba(217, 80, 80, 0); }
+    100% { color: rgba(255, 0, 0, 100); }
+}
+@keyframes blink1 {
+    0% { color: rgba(255, 0, 0, 100); }
+    50% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(255, 0, 0, 100); }
 }

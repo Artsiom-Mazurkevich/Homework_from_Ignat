@@ -1,7 +1,33 @@
 .default {
+    background-color: white;
+    padding: 4px 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 3px 3px;
+    min-width: 60px;
+    transition: all 0.3s;
+}
 
+.default:hover {
+    background-color: green;
+    cursor: pointer;
+    border: 2px solid yellow;
+    font-weight: bold;
 }
 
 .red {
-    background: red;
+    background: white;
+    padding: 4px 4px;
+    border-radius: 5px;
+    color: red;
+    border: 1px solid red;
+    margin: 3px 3px;
+    min-width: 60px;
+    transition: all 0.3s;
+}
+
+.red:hover {
+    background-color: #1a1919;
+    font-weight: bold;
+    border: 2px solid red;
 }
