@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/css/main.283d2595.css",
+    "main.js": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/js/main.727a1b95.js",
+    "index.html": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/index.html",
+    "main.283d2595.css.map": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/css/main.283d2595.css.map",
+    "main.727a1b95.js.map": "/Artsiom-Mazurkevich/Artsiom-Mazurkevich.github.io.git/static/js/main.727a1b95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.283d2595.css",
+    "static/js/main.727a1b95.js"
+  ]
+}
