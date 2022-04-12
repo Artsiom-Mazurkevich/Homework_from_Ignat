@@ -6,10 +6,12 @@ import HW3 from "../../../p2-homeworks/h3/HW3";
 import HW4 from "../../../p2-homeworks/h4/HW4";
 import HW5 from "../../../p2-homeworks/h5/HW5";
 import Header from "../../../p2-homeworks/h5/Header";
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes, Navigate} from "react-router-dom";
 import Error404 from "../../../p2-homeworks/h5/pages/Error404";
 import {PATH} from "../../../p2-homeworks/h5/RoutesNav";
 import PreJunior from "../../../p2-homeworks/h5/pages/PreJunior";
+import Junior from "../../../p2-homeworks/h5/pages/Junior";
+import Junior_Plus from "../../../p2-homeworks/h5/pages/Junior+";
 
 function App() {
     return (
@@ -17,11 +19,11 @@ function App() {
             <div>react homeworks:</div>
             <Header/>
             <Routes>
-                <Route path={'/'} element={<HW5/>}/>
+                <Route path={'/'} element={<Navigate to={PATH.PRE_JUNIOR}/>}/>
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
-                <Route path={PATH.JUNIOR} element={<Error404/>}/>
-                <Route path={PATH.JUNIOR_PLUS} element={<Error404/>}/>
-
+                <Route path={PATH.JUNIOR} element={<Junior/>}/>
+                <Route path={PATH.JUNIOR_PLUS} element={<Junior_Plus/>}/>
+                <Route path={'/*'} element={<Error404/>}/>
             </Routes>
 
 
