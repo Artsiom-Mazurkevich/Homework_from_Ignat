@@ -1,14 +1,23 @@
-const initState = {
 
+
+export type initialStateType = {
+    spinning: boolean
 }
 
-export const loadingReducer = (state = initState, action: any): any => { // fix any
+const initialState = {
+    spinning: false
+}
+
+type ActionType = ReturnType<typeof loadingAC>
+
+
+export const loadingReducer = (state: initialStateType = initialState, action: ActionType): initialStateType => { // fix any
     switch (action.type) {
-        case '': {
-            return state
+        case 'TOGGLE-SPINNING': {
+            return {...state, spinning: action.isSpinning}
         }
         default: return state
     }
 }
 
-export const loadingAC = (): any => {} // fix any
+export const loadingAC = (isSpinning: boolean) => ({type: 'TOGGLE-SPINNING', isSpinning} as const)
